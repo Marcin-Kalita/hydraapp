@@ -4,10 +4,27 @@
 @import "modules/hello.scss";
 
 body {
-  background: $wtf;
-  color: #fff;
+  background: hsl(32, 89%, 53%);
+  width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+  margin-top: 20%;
+}
+
+.beer {
+  color: #FFFFFF;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 64px;
+display: flex;
+align-items: center;
+text-align: center;
+margin-bottom: 20px;
+&__glass {
+  background: #ECEFF1;
+  box-sizing: border-box;
+}
 }
