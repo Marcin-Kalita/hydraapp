@@ -1,8 +1,8 @@
 ![cover](https://thumbs.gfycat.com/DarkAdventurousEidolonhelvum-small.gif)
 
-# WTF Webpack Starter Kit 
+#  The BeerApp
 
-Simple toolkit for your static websites development.
+A simple application to calculate drunk beer every day
 
 ## How to use it?
 
