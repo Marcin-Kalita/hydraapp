@@ -5,11 +5,14 @@
 
 body {
   background: hsl(32, 89%, 53%);
-  width: 100%;
+}
+
+.header {
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10%;
+
 }
 
 .beer {
