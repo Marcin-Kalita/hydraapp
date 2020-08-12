@@ -1,8 +1,8 @@
 {
-  "name": "BeerApp",
-  "short_name": "BeerApp",
-  "theme_color": "hsl(32, 89%, 53%)",
-  "background_color": "hsl(32, 89%, 53%)",
+  "name": "Hydraapp",
+  "short_name": "Hydraapp",
+  "theme_color": "#3767AD",
+  "background_color": "#3767AD",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/hydraapp/",
