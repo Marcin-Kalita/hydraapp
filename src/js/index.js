@@ -8,18 +8,24 @@ registerSW();
 
 console.log('HELLO 🚀')
 
-const addButton = document.querySelector ('.add-beer');
+const addButton = document.querySelector ('.add-glass');
 
-const closeButton = document.querySelector ('.enclose-beer');
+const closeButton = document.querySelector ('.remove-glass');
 
-const beerValue = document.querySelector ('.beer__number');
+const GlassValue = document.querySelector ('.water__number');
 
 const key = new Date ().toISOString ().slice(0,10);
 
-const myNumber = beerValue;
+let currentGlassValue = 0; 
 
 addButton.addEventListener('click', () => {
-    function calculate (myNumber){
-        return myNumber+1;
-}   localStorage.setItem (new Date, calculate('click'));
+          currentGlassValue++;
+          GlassValue.innerHTML = currentGlassValue;
+          localStorage.setItem (new Date, currentGlassValue);
 })
+
+closeButton.addEventListener('click', () => {
+    currentGlassValue--;
+    GlassValue.innerHTML = currentGlassValue;
+})
+
