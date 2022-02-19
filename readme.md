@@ -1,4 +1,4 @@
-![cover](https://thumbs.gfycat.com/DarkAdventurousEidolonhelvum-small.gif)
+![cover](https://cdn.dribbble.com/users/87059/screenshots/1292821/media/1fec13405d78af195c2b13328f1e2e87.gif)
 
 #  The Hydraapp
 
